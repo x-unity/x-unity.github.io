@@ -12,6 +12,21 @@
 	</head>
 	<body class="is-preload">
 
+<!-- Agregar los archivos de FancyBox -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+<script>
+	$(document).ready(function() {
+		// Inicializar FancyBox
+		$("[data-fancybox]").fancybox({
+			protect: true, // Prevenir la descarga de imágenes
+		});
+	});
+</script>
+</head>
+<body class="is-preload">
+
 		<!-- Wrapper-->
 			<div id="wrapper">
 
@@ -51,13 +66,13 @@
 								<section>
 									<div class="row">
 										<div class="col-4 col-6-medium col-12-small">
-											<a href="#" class="image fit"><img src="images/pic01.jpg" alt=""></a>
+											<a href="images/pic05.jpg" class="image fit" data-info="video" data-fancybox="gallery"><img src="images/pic01.jpg" alt=""></a>
 										</div>
 										<div class="col-4 col-6-medium col-12-small">
-											<a href="#" class="image fit"><img src="images/pic02.jpg" alt=""></a>
+											<a href="https://youtu.be/o5g-lUuFgpg" class="image fit" data-fancybox="gallery"><img src="images/pic02.jpg" alt=""></a>
 										</div>
 										<div class="col-4 col-6-medium col-12-small">
-											<a href="#" class="image fit"><img src="images/pic03.jpg" alt=""></a>
+											<a href="#" class="image fit" data-info="imagen" data-source="images/pic05.jpg"><img src="images/pic03.jpg" alt=""></a>
 										</div>
 										<div class="col-4 col-6-medium col-12-small">
 											<a href="#" class="image fit"><img src="images/pic04.jpg" alt=""></a>
@@ -130,11 +145,12 @@
 			</div>
 
 		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
+		<script src="assets/js/jquery.min.js"></script>
+		<script src="assets/js/browser.min.js"></script>
+		<script src="assets/js/breakpoints.min.js"></script>
+		<script src="assets/js/util.js"></script>
+		<script src="assets/js/main.js"></script>
+			
 
 	</body>
 </html>

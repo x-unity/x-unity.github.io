@@ -29,6 +29,27 @@
 			}, 100);
 		});
 
+		// Fancybox
+$(document).ready(function() {
+	$(".image-link").fancybox({
+	  // Opciones personalizadas
+	  loop: true,
+	  infobar: false,
+	  buttons: [
+		"zoom",
+		"share",
+		"slideShow",
+		"fullScreen",
+		"download",
+		"thumbs",
+		"close"
+	  ],
+	  animationEffect: "fade",
+	  transitionEffect: "slide",
+	  transitionDuration: 500
+	});
+  });
+
 	// Nav.
 		$nav_links
 			.on('click', function(event) {

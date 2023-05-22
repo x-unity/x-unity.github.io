@@ -72,6 +72,71 @@ input, select, textarea {
 	appearance: none;
 }
 
+/* FancyBox */
+.fancybox-slide--iframe .fancybox-content {
+	width: 100% !important;
+	height: 100% !important;
+}
+
+.fancybox-iframe {
+	display: block;
+	position: relative;
+}
+
+.fancybox-iframe img {
+	display: block;
+	max-width: 100%;
+	margin: 0 auto;
+}
+
+.fancybox-iframe .fancybox-caption {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	padding: 10px;
+	background-color: rgba(0, 0, 0, 0.75);
+	color: #fff;
+	text-align: center;
+	font-size: 14px;
+	line-height: 1.4;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.fancybox-iframe .fancybox-caption:before {
+	content: '\f03e';
+	font-family: FontAwesome;
+	position: absolute;
+	top: 50%;
+	left: 10px;
+	transform: translateY(-50%);
+	font-size: 18px;
+	line-height: 1;
+}
+
+.fancybox-iframe .fancybox-caption span {
+	display: inline-block;
+	vertical-align: middle;
+	margin-left: 10px;
+	margin-right: 30px;
+}
+
+.fancybox-iframe .fancybox-caption span:last-child {
+	margin-right: 0;
+}
+
+.fancybox-iframe .fancybox-caption a {
+	color: #fff;
+	text-decoration: underline;
+}
+
+.fancybox-iframe .fancybox-caption a:hover {
+	text-decoration: none;
+}
+
+
 /* Row */
 
 	.row {
