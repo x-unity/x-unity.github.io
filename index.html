@@ -9,6 +9,21 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<style>
+			/* Estilo para las imágenes de la sección de trabajo */
+			.work-image {
+				width: 100%;
+				height: auto;
+				object-fit: cover;
+				transition: transform 0.3s ease; /* Transición suave al aplicar la transformación */
+			}
+		
+			/* Estilo para la animación al posicionar el cursor */
+			.work-image:hover {
+				transform: scale(1.05); /* Aumenta ligeramente el tamaño de la imagen al posicionar el cursor */
+			}
+		</style>
+
 	</head>
 	<body class="is-preload">
 
@@ -32,50 +47,70 @@
 
 				<!-- Nav -->
 					<nav id="nav">
-						<a href="#" class="icon solid fa-home"><span>Home</span></a>
-						<a href="#work" class="icon solid fa-folder"><span>Work</span></a>
-						<a href="#contact" class="icon solid fa-envelope"><span>Contact</span></a>
+						<a href="#" class="icon solid fa-home"><span>Inicio</span></a>
+						<a href="#trayectoria" class="icon solid fa fa-compass" ><span>Carrera</span></a>
+						<a href="#work" class="icon solid fa-folder"><span>Trabajos</span></a>
+						<a href="#contact" class="icon solid fa-envelope"><span>Contacto</span></a>
 						<a href="https://twitter.com/rh_hernan20" class="icon brands fa-twitter"><span>Twitter</span></a>
 					</nav>
 
 				<!-- Main -->
 					<div id="main">
 
-						<!-- Me -->
+						<!-- ¨Me¨ foto mia -->
 							<article id="home" class="panel intro">
 								<header>
 									<h1>Rogelio H Alonso</h1>
-									<p>Lic. Tecnologias e Informacion</p>
+									<p>Lic. en Tecnologias e Información</p>
 								</header>
 								<a href="#work" class="jumplink pic">
 									<span class="arrow icon solid fa-chevron-right"><span>Mira mi trabajo</span></span>
 									<img src="images/me.jpg" alt="" />
 								</a>
 							</article>
+						<!-- Trayectoria -->
+							<article id="trayectoria" class="panel">
+								<header>
+									<h1>Trayectoria</h1>
+									<p>algunas de las cosas</p>
+								</header>
+								
+							
+							</article>
 
 						<!-- Work -->
 							<article id="work" class="panel">
 								<header>
-									<h2>Trabajo</h2>
+									<h2>Mis Proyectos Escolares</h2>
 								</header>
 								<p>
-									Phasellus enim sapien, blandit ullamcorper elementum eu, condimentum eu elit.
-									Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia
-									luctus elit eget interdum.
+									Bienvenidos a mi rincón de proyectos escolares, un espacio donde puedo 
+									dar vida a mis ideas y demostrar mis habilidades en el fascinante mundo 
+									de la animación y el desarrollo. Aquí, te llevaré a través de un viaje 
+									lleno de maravillas visuales y narrativas cautivadoras, todo creado con 
+									pasión y un conjunto diverso de herramientas.
 								</p>
 								<section>
 									<div class="row">
 										<div class="col-4 col-6-medium col-12-small">
-											<a href="images/pic05.jpg" class="image fit" data-info="video" data-fancybox="gallery"><img src="images/pic01.jpg" alt=""></a>
+											<a href="https://youtu.be/DiKzjYkvIeY" class="image fit" data-info="video" data-fancybox="gallery">
+												<img src="images/picwork01.jpg" alt="Animacion Digital" class="work-image"></a>
+											</a>
+											<h3>Animacion Digital en 2D</h3>
+											<p>Creacion de animacion digital en 2D promocionando una escuela.</p>
 										</div>
 										<div class="col-4 col-6-medium col-12-small">
-											<a href="https://youtu.be/o5g-lUuFgpg" class="image fit" data-fancybox="gallery"><img src="images/pic02.jpg" alt=""></a>
+											<a href="https://youtu.be/o5g-lUuFgpg" class="image fit" data-fancybox="gallery">
+												<img src="images/pic02.jpg" alt="" class="work-image"></a>
+												
 										</div>
 										<div class="col-4 col-6-medium col-12-small">
-											<a href="#" class="image fit" data-info="imagen" data-source="images/pic05.jpg"><img src="images/pic03.jpg" alt=""></a>
+											<a href="#" class="image fit" data-info="imagen" data-source="images/pic05.jpg">
+												<img src="images/pic03.jpg" alt="" class="work-image"></a>
 										</div>
 										<div class="col-4 col-6-medium col-12-small">
-											<a href="#" class="image fit"><img src="images/pic04.jpg" alt=""></a>
+											<a href="#" class="image fit">
+												<img src="images/pic04.jpg" alt=""></a>
 										</div>
 										<div class="col-4 col-6-medium col-12-small">
 											<a href="#" class="image fit"><img src="images/pic05.jpg" alt=""></a>
@@ -106,39 +141,33 @@
 							</article>
 
 						<!-- Contact -->
-							<article id="contact" class="panel">
-								<header>
-									<h2>Contact Me</h2>
-								</header>
-								<form action="#" method="post">
-									<div>
-										<div class="row">
-											<div class="col-6 col-12-medium">
-												<input type="text" name="name" placeholder="Name" />
-											</div>
-											<div class="col-6 col-12-medium">
-												<input type="text" name="email" placeholder="Email" />
-											</div>
-											<div class="col-12">
-												<input type="text" name="subject" placeholder="Subject" />
-											</div>
-											<div class="col-12">
-												<textarea name="message" placeholder="Message" rows="6"></textarea>
-											</div>
-											<div class="col-12">
-												<input type="submit" value="Send Message" />
-											</div>
-										</div>
-									</div>
-								</form>
-							</article>
+<article id="contact" class="panel">
+	<header>
+	  <h2>Contactame!</h2>
+	</header>
+	<div class="contact-card animated fadeIn">
+	  <div class="contact-details">
+		<h3>Información de contacto</h3>
+		<p></p>
+		<p><strong>Nombre:</strong> Rogelio H Alonso</p>
+		<p><strong>Email:</strong> tr0n.fr@me.com </p>
+		<p><strong>Teléfono:</strong> +525571176111</p>
+	  </div>
+	  <div class="contact-qr">
+		<h3>Código QR </h3>
+		<p></p>
+		<img src="images/cod_qr.jpg" alt="Código QR de contacto"class="work-image">
+	  </div>
+	</div>
+	
+  </article>
 
 					</div>
 
 				<!-- Footer -->
 					<div id="footer">
 						<ul class="copyright">
-							<li>&copy; Untitled.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+							<li>&copy; Untitled.</li><li>Design in: <a href="http://x-unity.github.io">HTML5</a></li>
 						</ul>
 					</div>
 
